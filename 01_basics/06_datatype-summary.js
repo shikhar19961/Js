@@ -31,3 +31,8 @@ const myFunction = function(){
 console.log(heroes);
 console.log(typeof anotherHeroes);
 console.log(typeof(myFunction));
+
+
+//++++++++++++++++++++++++++++++++++++++++
+
+// Stack(Primitive) data type is stored , Head (Non Primitive) data type is stored
