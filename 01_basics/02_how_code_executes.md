@@ -1,11 +1,11 @@
 JavaScript Execution context
-    1. Global execution context
+    1. Global execution context - 
     2. Execution context of browser and nodejs is different , and browser global execution context value of this is window
 
     --------------------------------------------------
     1. Global execution context
     2. Function execution context
-    3. Eval execution context
+    3. Eval execution context - in mongoose
 
     -----------------------------------------------------
 
