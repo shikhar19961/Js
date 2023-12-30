@@ -18,4 +18,23 @@ coding.forEach(printMe)
 
 coding.forEach((item,index,arr)=>{
     console.log(`${index} -> ${item} -> ${arr}`);
-})
+}) 
+
+
+const newNums = coding.filter((num)=>num=='js')  // filter will return value based on  condition
+console.log(newNums);
+
+const map = coding.map((lang)=>lang)
+console.log(`this is map ${map}`);
+
+
+const nums = [1,2,3,4,5,6,7,8,9,10]
+
+const newNumsOne = nums.map((num)=>num*10).map((numOne)=>(numOne*2)).filter((num)=>num>150)
+console.log(newNumsOne);
+
+const myTotal = nums.reduce((acc,currval)=>(
+     acc+1
+),0)
+
+console.log(myTotal);
